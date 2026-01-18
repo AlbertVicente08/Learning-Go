@@ -1,0 +1,14 @@
+# Binarios
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+bin/
+
+# IDEs
+.vscode/
+.idea/
+
+# Variables de entorno (¡Seguridad!)
+.env
