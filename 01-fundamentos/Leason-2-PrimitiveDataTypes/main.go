@@ -1,14 +1,10 @@
-
-**Normal Structure**
 package main
+
 import "fmt"
 
-func main(){
-	fmt.Println("Hello World")
-}
+func main() {
 
-**Tipos de datos primitivos**
-***Cadena de textos***
+	//Cadena de textos
 	var mistring string
 	//String zero values is ""
 	fmt.Println(mistring)
@@ -16,7 +12,7 @@ func main(){
 	fmt.Println(mistring)
 
 
-***Numero enteros***
+	//Numero enteros
 	var miint int
 	//Zero value for number types is 0
 	fmt.Println(miint)
@@ -24,9 +20,10 @@ func main(){
 	fmt.Println(miint)
 
 
-**Boleanos***
+	//Boleanos 
 	var miboleano bool
 	//zero value for bool is false
 	fmt.Println(miboleano)
 	miboleano = true
 	fmt.Println(miboleano)
+}
